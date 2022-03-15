@@ -13,10 +13,10 @@
 }
 
 .fieldset {
+  padding-bottom: 0;
   margin-bottom: 20px;
 }
 
 .fieldset:last-child {
   margin-bottom: 0;
-  padding-bottom: 0;
 }
