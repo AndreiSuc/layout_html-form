@@ -1,59 +1,22 @@
 /* styles go here */
-.surname-label,
-.name-label,
-.age-label,
-.dob-label,
-.terms-label,
-.email-label,
-.password-label,
-.radio-label,
-.color-label,
-.bed-time-label,
-.fav-car-label,
-.rating-label,
-.comments-label,
-.recommend-label {
+.label {
   display: block;
   margin-bottom: 10px;
-}
-
-.terms-label,
-.password-label,
-.rating-label,
-.recommend-label {
-  margin-bottom: 0;
-}
-
-.fact-fieldset {
-  padding-bottom: 0;
 }
 
 .rating-label {
   margin-top: 10px;
 }
 
-.surname,
-.name,
-.age,
-.dob,
-.terms,
-.email,
-.password,
-.radio,
-.color,
-.bed-time,
-.rating,
-.comments {
-  display: inline;
-}
-
 .radio {
   margin-right: 5px;
 }
 
-.personal-information-fieldset,
-.registration-fieldset,
-.fact-fieldset,
-.additional-info-fieldset {
+.fieldset {
   margin-bottom: 20px;
+}
+
+.fieldset:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
